@@ -1,0 +1,89 @@
+body {
+    text-shadow:
+        0 0 5px orange,
+        0 0 30px darkmagenta;
+    font-family: "Press Start 2P";
+    margin: 0;
+    padding: 0;
+    background: url("images/backgroundbatocera.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 15px darkmagenta;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: orange;
+    text-shadow: 0 0 10px black;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.tips-container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px darkmagenta;
+}
+
+.tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.tip {
+    background: rgba(139, 0, 139, 0.4);
+    border: 2px solid orange;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.tip:hover {
+    background: rgba(255, 179, 0, 0.2);
+    transform: scale(1.05);
+}
+
+button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: darkmagenta;
+    color: white;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Press Start 2P";
+}
+
+button:hover {
+    background: orange;
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: orange;
+    font-size: 0.7em;
+    text-shadow: 0 0 8px black;
+}

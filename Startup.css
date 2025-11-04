@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: url("Pacman.gif")no-repeat center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: orange;
+  text-align: center;
+  backdrop-filter: blur(15px);
+}
+
+.startup-screen {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px 60px;
+  border: 3px solid orange;
+  border-radius: 15px;
+  box-shadow: 0 0 25px orange;
+  animation: fadeIn 2s ease-in;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: orange;
+  text-shadow: 0 0 10px orangered;
+  margin-bottom: 50px;
+}
+
+.press-start {
+  font-size: 1em;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+.press-start a {
+  color: orange;
+  text-decoration: none;
+}
+
+.press-start a:hover {
+  color: white;
+  text-shadow: 0 0 10px orange;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
