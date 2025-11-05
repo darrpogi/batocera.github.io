@@ -111,3 +111,7 @@ footer {
 section {
   scroll-margin-top: 4px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
